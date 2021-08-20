@@ -8,7 +8,7 @@ export default class ProductDescription extends Component {
             <div>
                 <Container className="mt-5 mb-5">
                 <Row>
-                    <Col>
+                    <Col sm={12} md={6} lg={6}>
                         <Container>
                             <Carousel>
                                 <CarouselItem interval={1000}>
@@ -26,7 +26,7 @@ export default class ProductDescription extends Component {
 
                     </Col>
 
-                    <Col>
+                    <Col sm={12} md={6} lg={6}>
                         <Container className="prod-desc mt-4">
                             <h5 style={{borderBottom: "1px solid black"}}>Product Name</h5>
                             <br/>
